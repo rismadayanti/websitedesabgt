@@ -1,0 +1,81 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: #ECB390;
+    word-spacing: 2px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #364f6b;
+}
+ul {
+    word-spacing: 3px;
+    color:white;
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex; 
+    float: right;
+    margin-bottom: 100px;
+    background-color: #94B49F;  
+}
+.menu ul li{
+    padding-right: 20px; 
+    background-color: #94B49F;
+}
+.menu ul li a {
+    text-decoration: none; 
+    cursor: pointer; 
+    color: white;
+    background-color: #94B49F;
+}
+.menu ul li a:hover {
+    color: #DF7861;
+}
+h4 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 50px;
+    background-color: #94B49F;
+    color: #4B5D67;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}  
+.tengah {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 20;
+    font-size: 15px;
+    text-align: center;
+    color: #364f6b;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 200px;
+    font-family: sans-serif;
+}

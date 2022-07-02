@@ -1,0 +1,41 @@
+body {
+    background-color: #E0DECA;
+}
+.menu {
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex; 
+    float: right;  
+}
+.menu ul li{
+    padding-right: 20px; 
+}
+.menu ul li a {
+    text-decoration: none; 
+    cursor: pointer; 
+    color: white;
+}
+.menu ul li a:hover {
+    color: #DF7861;
+}
+a {
+    text-decoration: none;
+}
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: #DF7861;
+}
+h2 {
+    color: #DF7861;
+}
